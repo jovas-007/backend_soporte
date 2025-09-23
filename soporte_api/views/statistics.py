@@ -1,8 +1,8 @@
-# enciclopedia_api/views/statistics.py
+# soporte_api/views/statistics.py
 from rest_framework import viewsets
 from rest_framework.decorators import action
 from rest_framework.response import Response
-from enciclopedia_api.models import Personaje
+from soporte_api.models import Personaje
 
 class StatisticsViewSet(viewsets.ViewSet):
     """

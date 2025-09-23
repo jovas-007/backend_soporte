@@ -1,4 +1,4 @@
-# enciclopedia_api/views/personajes.py
+# soporte_api/views/personajes.py
 
 from rest_framework import viewsets, permissions, filters as drf_filters
 from rest_framework.decorators import action
@@ -6,8 +6,8 @@ from rest_framework.response import Response
 from rest_framework.parsers import MultiPartParser, FormParser, JSONParser
 from django_filters import rest_framework as df
 
-from enciclopedia_api.models import Personaje
-from enciclopedia_api.serializers import PersonajeSerializer
+from soporte_api.models import Personaje
+from soporte_api.serializers import PersonajeSerializer
 
 
 class PersonajeFilter(df.FilterSet):

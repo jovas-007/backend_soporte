@@ -2,8 +2,8 @@ import datetime
 from django.conf import settings
 import os
 from django.http import HttpResponse, Http404
-from enciclopedia_api.file_storage.file_system_storage import FileSystemStorage
-from enciclopedia_api.file_storage.google_cloud_bucket_storage import GoogleCloudBucketStorage
+from soporte_api.file_storage.file_system_storage import FileSystemStorage
+from soporte_api.file_storage.google_cloud_bucket_storage import GoogleCloudBucketStorage
 
 class FileStorageFactory:
 

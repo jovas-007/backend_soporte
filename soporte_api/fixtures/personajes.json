@@ -1,47 +1,47 @@
 [
-  {"model":"enciclopedia_api.personaje","pk":1,"fields":{
+  {"model":"soporte_api.personaje","pk":1,"fields":{
     "nombre":"Goku","especie":"Saiyan","genero":"Masculino",
     "base_ki":9000,"total_ki":150000000,"afiliacion":"Z Fighters",
     "descripcion":"El héroe principal; busca superar sus límites.",
     "imagen_url":"https://placehold.co/400x500?text=Goku"
   }},
-  {"model":"enciclopedia_api.personaje","pk":2,"fields":{
+  {"model":"soporte_api.personaje","pk":2,"fields":{
     "nombre":"Vegeta","especie":"Saiyan","genero":"Masculino",
     "base_ki":8500,"total_ki":140000000,"afiliacion":"Z Fighters",
     "descripcion":"Príncipe de los Saiyan; orgulloso y competitivo.",
     "imagen_url":"https://placehold.co/400x500?text=Vegeta"
   }},
-  {"model":"enciclopedia_api.personaje","pk":3,"fields":{
+  {"model":"soporte_api.personaje","pk":3,"fields":{
     "nombre":"Piccolo","especie":"Namekiano","genero":"Masculino",
     "base_ki":7000,"total_ki":110000000,"afiliacion":"Z Fighters",
     "descripcion":"Estratega y mentor de Gohan; gran control del ki.",
     "imagen_url":"https://placehold.co/400x500?text=Piccolo"
   }},
-  {"model":"enciclopedia_api.personaje","pk":4,"fields":{
+  {"model":"soporte_api.personaje","pk":4,"fields":{
     "nombre":"Bulma","especie":"Humano","genero":"Femenino",
     "base_ki":2,"total_ki":10,"afiliacion":"Cápsula Corp",
     "descripcion":"Genio inventora; soporte tecnológico del equipo.",
     "imagen_url":"https://placehold.co/400x500?text=Bulma"
   }},
-  {"model":"enciclopedia_api.personaje","pk":5,"fields":{
+  {"model":"soporte_api.personaje","pk":5,"fields":{
     "nombre":"Freezer","especie":"Raza Freezer","genero":"Masculino",
     "base_ki":530000,"total_ki":120000000000,"afiliacion":"Ejército de Freezer",
     "descripcion":"Tirano galáctico; poder abrumador y despiadado.",
     "imagen_url":"https://placehold.co/400x500?text=Freezer"
   }},
-  {"model":"enciclopedia_api.personaje","pk":6,"fields":{
+  {"model":"soporte_api.personaje","pk":6,"fields":{
     "nombre":"Cell","especie":"Bio-Android","genero":"Masculino",
     "base_ki":900000000,"total_ki":200000000000,"afiliacion":"Red Ribbon",
     "descripcion":"Ser perfecto creado a partir de células de guerreros.",
     "imagen_url":"https://placehold.co/400x500?text=Cell"
   }},
-  {"model":"enciclopedia_api.personaje","pk":7,"fields":{
+  {"model":"soporte_api.personaje","pk":7,"fields":{
     "nombre":"Majin Buu","especie":"Majin","genero":"Masculino",
     "base_ki":800000000,"total_ki":250000000000,"afiliacion":"Majin",
     "descripcion":"Ser mágico con múltiples formas y enorme poder.",
     "imagen_url":"https://placehold.co/400x500?text=Majin+Buu"
   }},
-  {"model":"enciclopedia_api.personaje","pk":8,"fields":{
+  {"model":"soporte_api.personaje","pk":8,"fields":{
     "nombre":"Gohan","especie":"Saiyan/Humano","genero":"Masculino",
     "base_ki":6000,"total_ki":120000000,"afiliacion":"Z Fighters",
     "descripcion":"Hijo de Goku; gran potencial y corazón noble.",

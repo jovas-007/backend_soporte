@@ -19,7 +19,7 @@ INSTALLED_APPS = [
     'rest_framework',
     'rest_framework.authtoken',       # conserva soporte de tokens de DRF
     'corsheaders',                    # librería CORS actualizada
-    'enciclopedia_api',
+    'soporte_api',
 ]
 
 MIDDLEWARE = [
@@ -39,7 +39,7 @@ CORS_ALLOWED_ORIGINS = [
 ]
 CORS_ALLOW_CREDENTIALS = True
 
-ROOT_URLCONF = 'enciclopedia_api.urls'
+ROOT_URLCONF = 'soporte_api.urls'
 
 
 
@@ -69,7 +69,7 @@ TEMPLATES = [
     },
 ]
 
-WSGI_APPLICATION = 'enciclopedia_api.wsgi.application'
+WSGI_APPLICATION = 'soporte_api.wsgi.application'
 
 DATABASES = {
     'default': {
@@ -102,7 +102,7 @@ REST_FRAMEWORK = {
     'PAGE_SIZE': 10,
     'DEFAULT_AUTHENTICATION_CLASSES': (
         'rest_framework.authentication.SessionAuthentication',
-        'enciclopedia_api.models.BearerTokenAuthentication',
+        'soporte_api.models.BearerTokenAuthentication',
     ),
     'DEFAULT_FILTER_BACKENDS': (
         'django_filters.rest_framework.DjangoFilterBackend',

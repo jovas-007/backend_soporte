@@ -1,4 +1,4 @@
-from enciclopedia_api.models import *
+from soporte_api.models import *
 import json
 import requests
 import datetime

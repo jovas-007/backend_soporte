@@ -6,7 +6,7 @@ from django.db import migrations, models
 class Migration(migrations.Migration):
 
     dependencies = [
-        ('enciclopedia_api', '0002_personaje_alter_profiles_user'),
+        ('soporte_api', '0002_personaje_alter_profiles_user'),
     ]
 
     operations = [

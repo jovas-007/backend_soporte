@@ -15,21 +15,21 @@ Including another URLconf
 """
 from django.contrib import admin
 from django.urls import path
-from enciclopedia_api.views import bootstrap
-from enciclopedia_api.views import users
-from enciclopedia_api.views import auth
+from soporte_api.views import bootstrap
+from soporte_api.views import users
+from soporte_api.views import auth
 
 
 from django.contrib import admin
 from django.urls import path, include
 from rest_framework.routers import DefaultRouter
-from enciclopedia_api.views.personajes import PersonajeViewSet
+from soporte_api.views.personajes import PersonajeViewSet
 
 
 from django.conf import settings
 from django.conf.urls.static import static
 
-from enciclopedia_api.views.statistics import StatisticsViewSet
+from soporte_api.views.statistics import StatisticsViewSet
 
 router = DefaultRouter()
 router.register(r"personajes", PersonajeViewSet, basename="personajes")
